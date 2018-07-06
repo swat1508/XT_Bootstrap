@@ -1,0 +1,9 @@
+{
+ "name": "stack_route_prj7",
+ "description": "A starter project for Bootstrap",
+ "version": "0.0.0",
+ "homepage": "https://github.com/mohiit1502/stack_route_prj7",
+ "license": "The Unlicense",
+ "private": true,
+ "dependencies": {}
+}
