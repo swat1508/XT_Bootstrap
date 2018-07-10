@@ -1,7 +1,8 @@
 html,
 body {
   height: 100%;
-  width: 100%; }
+  width: 99%;
+  margin-left: 0.1rem; }
 
 #cover {
   background: #222 url("img/stars.jpg") center center no-repeat;
@@ -24,26 +25,33 @@ form {
 
 #footer-main {
   background: #222;
-  color: white;
+  color: brown;
   font-size: 0.8rem;
   padding: 2.5rem 0; }
 
 #footer-main {
   width: 100%;
   margin-left: 0.1rem;
-  margin-right: 0.1rem; }
+  margin-right: 0.1rem;
+  background-color: whitesmoke; }
 
 #navbarSupportedContent #loginButton {
   background-color: pink; }
 
 .text-lg-center {
-  width: 100%; }
+  width: 100%;
+  align-self: auto; }
 
 .pagination {
-  width: 90%; }
+  margin-left: 30%; }
+
+.text-lg-center .pagination .page-item a {
+  width: 100%;
+  color: green;
+  align-items: center; }
 
 #carousel {
-  width: 60%;
+  width: 100%;
   border: 0.1rem solid black; }
 
 #carouselExampleIndicators {
@@ -55,8 +63,8 @@ form {
 #carousel .carousel-inner .carousel-item img {
   width: 100%; }
 
-.carousel-control-prev, .carousel-control-next {
-  height: 10%; }
+.feedbackForm {
+  margin-left: 2%; }
 
 .feedbackSection {
   background-color: grey;
@@ -73,7 +81,7 @@ form {
   color: black; }
 
 .card .card-img .card-img-overlay .card-title, .card-text {
-  color: blue;
+  color: darkblue;
   font-style: inherit; }
 
 .card .card-img .card-img-overlay .card-title, .card-text2 {
@@ -81,11 +89,12 @@ form {
   font-style: italic; }
 
 .myBadge {
-  background-color: grey;
+  background-color: whitesmoke;
   font-family: Tangerine; }
 
 .myBadge {
-  color: cyan; }
+  color: blue;
+  margin-left: 2%; }
 
 .myBadge .badge-secondary:hover {
   text-decoration: underline;
