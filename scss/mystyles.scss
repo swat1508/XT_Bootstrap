@@ -1,0 +1,106 @@
+html,
+body{
+    height: 100%;
+    width:100%;
+}
+
+#cover{
+    background: #222 url('img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+form{
+    width: 80%;
+//    border: 0.1 rem solid black;
+}
+.imgCls{
+    width :90%; 
+    height :100%; 
+  }
+#cover-caption{
+    width: 100%;
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+#footer-main{
+    width: 100%;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+#navbarSupportedContent{
+     #loginButton{
+        background-color: pink;
+     }
+}
+.text-lg-center{
+    width: 100%;
+}
+.pagination{
+    width: 90%;
+}
+
+#carousel{
+    width: 60%;
+    // height:40%;
+   
+    border: 0.1rem solid black;
+}
+#carouselExampleIndicators{
+    width: 100%;
+    // height: 25rem;
+}
+#carousel img{
+    width: 100%;
+}
+#carousel .carousel-inner .carousel-item img{
+    width: 100%;
+}
+.carousel-control-prev , .carousel-control-next{
+    height: 10%;
+}
+
+.feedbackSection{
+    background-color: grey;
+    border:1px solid black;
+}
+  .card-group .card{
+  margin-bottom: 0.1px;
+  }
+  .card-group .card .card-img{
+  height: 28rem;
+  height: 100%;
+  }
+  .card .card-img .card-img-overlay .card-title,.card-title{
+    color: black;
+    }
+  .card .card-img .card-img-overlay .card-title,.card-text{
+  color: blue;
+  font-style: inherit;
+  }
+  .card .card-img .card-img-overlay .card-title,.card-text2{
+    color: green;
+    font-style: italic;
+    }
+    .myBadge{
+        background-color: grey;
+        font-family: Tangerine;
+    }
+    .myBadge {
+    color: cyan;
+    }
+    .myBadge .badge-secondary:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+  
