@@ -3,7 +3,6 @@ body{
     height: 100%;
     width:99%;
     margin-left: 0.1rem;
-    // margin-right: 0.1rem;
 }
 
 #cover{
@@ -17,7 +16,6 @@ body{
 }
 form{
     width: 80%;
-//    border: 0.1 rem solid black;
 }
 .imgCls{
     width :90%; 
@@ -48,7 +46,6 @@ form{
 }
 .text-lg-center{
     width: 100%;
-    // margin-left: 33%;
     align-self: auto;
 }
 .pagination{
@@ -61,13 +58,11 @@ align-items: center;
  }
 
 #carousel{
-    // width: 60%;
     width: 100%;
     border: 0.1rem solid black;
 }
 #carouselExampleIndicators{
     width: 100%;
-    // height: 25rem;
 }
 #carousel img{
     width: 100%;
@@ -93,27 +88,24 @@ align-items: center;
   }
   .card .card-img .card-img-overlay .card-title,.card-title{
     color: black;
-    }
-  .card .card-img .card-img-overlay .card-title,.card-text{
-//   color: blue;
-color:darkblue;
-  font-style: inherit;
+ }
+.card .card-img .card-img-overlay .card-title .card-text{
+    color:darkblue;
+    font-style: inherit;
   }
   .card .card-img .card-img-overlay .card-title,.card-text2{
     color: green;
     font-style: italic;
     }
-    .myBadge{
-        background-color: whitesmoke;
-        font-family: Tangerine;
-        //font-family:Chela One;
-    }
+   
     .myBadge {
-    color: blue;
-    margin-left: 2%;
-    }
-    .myBadge .badge-secondary:hover{
-        text-decoration: underline;
-        cursor: pointer;
+        background-color: whitesmoke;
+        font-family: Tangerine;    
+        color: blue;
+        margin-left: 2%;
+            .badge-secondary:hover{
+                text-decoration: underline;
+                cursor: pointer;
+        }
     }
   
