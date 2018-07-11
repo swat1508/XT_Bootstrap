@@ -1,26 +1,11 @@
-html,
-body{
-    height: 100%;
-    width:99%;
-    margin-left: 0.1rem;
-}
- .navbar{
- width: 100%;
- position: fixed;
- top: 0px;
-//  overflow: hidden;
- z-index: 500;	
- }
+@import 'layout';
+@import 'carousel';
 
-#cover{
-    background: #222 url('img/stars.jpg') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
+$green-color:green;
+%leftMargin {
+    margin-left: 2%;
 }
+
 form{
     width: 80%;
 }
@@ -28,58 +13,20 @@ form{
     width :90%; 
     height :100%; 
   }
-#cover-caption{
-    width: 100%;
-}
 
-#footer-main{
-    background: #222;
-    color: brown;
-    font-size: 0.8rem;
-    padding: 2.5rem 0;
-}
-
-#footer-main{
-    width: 100%;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
-    background-color: whitesmoke;
-}
-
-#navbarSupportedContent{
-     #loginButton{
-        background-color: pink;
-     }
-}
 .text-lg-center{
     width: 100%;
     align-self: auto;
 }
-.pagination{
-    margin-left: 30%;
-}
+
 .text-lg-center .pagination .page-item a{
 width: 100%;
-color: green;
+color:$green-color;
 align-items: center;
  }
 
-#carousel{
-    width: 100%;
-    border: 0.1rem solid black;
-}
-#carouselExampleIndicators{
-    width: 100%;
-}
-#carousel img{
-    width: 100%;
-}
-#carousel .carousel-inner .carousel-item img{
-    width: 100%;
-}
-
 .feedbackForm{
-     margin-left: 2%;
+    @extend %leftMargin;
 }
 
 .feedbackSection{
@@ -101,18 +48,25 @@ align-items: center;
     font-style: inherit;
   }
   .card .card-img .card-img-overlay .card-title,.card-text2{
-    color: green;
-    font-style: italic;
+     color: $green-color;
+     font-style: italic;
     }
    
     .myBadge {
         background-color: whitesmoke;
         font-family: Tangerine;    
         color: blue;
-        margin-left: 2%;
+        @extend %leftMargin;
             .badge-secondary:hover{
                 text-decoration: underline;
                 cursor: pointer;
         }
     }
   
+    @mixin paginationMargin {
+        margin-left: 30%;
+      }
+      
+      .pagination{
+        @include paginationMargin;
+      }

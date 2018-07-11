@@ -10,25 +10,6 @@ body {
   top: 0px;
   z-index: 500; }
 
-#cover {
-  background: #222 url("img/stars.jpg") center center no-repeat;
-  background-size: cover;
-  color: white;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center; }
-
-form {
-  width: 80%; }
-
-.imgCls {
-  width: 90%;
-  height: 100%; }
-
-#cover-caption {
-  width: 100%; }
-
 #footer-main {
   background: #222;
   color: brown;
@@ -40,21 +21,6 @@ form {
   margin-left: 0.1rem;
   margin-right: 0.1rem;
   background-color: whitesmoke; }
-
-#navbarSupportedContent #loginButton {
-  background-color: pink; }
-
-.text-lg-center {
-  width: 100%;
-  align-self: auto; }
-
-.pagination {
-  margin-left: 30%; }
-
-.text-lg-center .pagination .page-item a {
-  width: 100%;
-  color: green;
-  align-items: center; }
 
 #carousel {
   width: 100%;
@@ -69,8 +35,24 @@ form {
 #carousel .carousel-inner .carousel-item img {
   width: 100%; }
 
-.feedbackForm {
+.feedbackForm, .myBadge {
   margin-left: 2%; }
+
+form {
+  width: 80%; }
+
+.imgCls {
+  width: 90%;
+  height: 100%; }
+
+.text-lg-center {
+  width: 100%;
+  align-self: auto; }
+
+.text-lg-center .pagination .page-item a {
+  width: 100%;
+  color: green;
+  align-items: center; }
 
 .feedbackSection {
   background-color: grey;
@@ -97,8 +79,10 @@ form {
 .myBadge {
   background-color: whitesmoke;
   font-family: Tangerine;
-  color: blue;
-  margin-left: 2%; }
+  color: blue; }
   .myBadge .badge-secondary:hover {
     text-decoration: underline;
     cursor: pointer; }
+
+.pagination {
+  margin-left: 30%; }

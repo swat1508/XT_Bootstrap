@@ -1,0 +1,26 @@
+html,
+body{
+    height: 100%;
+    width:99%;
+    margin-left: 0.1rem;
+}
+ .navbar{
+ width: 100%;
+ position: fixed;
+ top: 0px;
+ z-index: 500;	
+ }
+
+ #footer-main{
+    background: #222;
+    color: brown;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+#footer-main{
+    width: 100%;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    background-color: whitesmoke;
+}
