@@ -4,6 +4,13 @@ body{
     width:99%;
     margin-left: 0.1rem;
 }
+ .navbar{
+ width: 100%;
+ position: fixed;
+ top: 0px;
+//  overflow: hidden;
+ z-index: 500;	
+ }
 
 #cover{
     background: #222 url('img/stars.jpg') center center no-repeat;

@@ -4,6 +4,12 @@ body {
   width: 99%;
   margin-left: 0.1rem; }
 
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 500; }
+
 #cover {
   background: #222 url("img/stars.jpg") center center no-repeat;
   background-size: cover;
@@ -80,7 +86,7 @@ form {
 .card .card-img .card-img-overlay .card-title, .card-title {
   color: black; }
 
-.card .card-img .card-img-overlay .card-title, .card-text {
+.card .card-img .card-img-overlay .card-title .card-text {
   color: darkblue;
   font-style: inherit; }
 
@@ -90,12 +96,9 @@ form {
 
 .myBadge {
   background-color: whitesmoke;
-  font-family: Tangerine; }
-
-.myBadge {
+  font-family: Tangerine;
   color: blue;
   margin-left: 2%; }
-
-.myBadge .badge-secondary:hover {
-  text-decoration: underline;
-  cursor: pointer; }
+  .myBadge .badge-secondary:hover {
+    text-decoration: underline;
+    cursor: pointer; }
