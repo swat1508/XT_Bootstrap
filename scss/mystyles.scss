@@ -1,4 +1,5 @@
 $success:blue;
+$text-muted: green;
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'layout';
 @import 'carousel';
@@ -109,3 +110,15 @@ $green-color:green;
         color: black;
         font-style: oblique;
     }
+
+    .card-deck .card .card-body{
+
+             h5{ color: blue;}
+             .card-text{
+                 color: brown;
+             }
+             .text-muted{
+                 color: green;
+             }
+}
+
