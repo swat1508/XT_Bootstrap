@@ -10,17 +10,43 @@ body{
  top: 0px;
  z-index: 500;	
  }
-
- #footer-main{
-    background: #222;
-    color: brown;
-    font-size: 0.8rem;
-    padding: 2.5rem 0;
+ .imgCls{
+    width :90%; 
+    height :100%; 
+  }
+form{
+    width: 80%;
 }
 
 #footer-main{
     width: 100%;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
+     margin-left: 1%;
     background-color: whitesmoke;
+}
+.row{
+width: 99%;
+}
+
+.navbar,#carousel,.card-deck,.card,.myBadge,.feedbackForm,.text-lg-center{
+margin-bottom: 2%;
+}
+
+#navbarSupportedContent .form-inline .btn-outline-success:hover{
+    background-color: tomato;
+}
+
+
+@mixin setCustomColor($myColor){
+    color:$myColor;
+ }
+ 
+ul li a{
+    @include setCustomColor(black);
+}
+ .col-sm-3{
+    p {
+        a{
+            @include setCustomColor(black);
+        }
+    }
 }

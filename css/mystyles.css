@@ -1,3 +1,4 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
 html,
 body {
   height: 100%;
@@ -10,17 +11,32 @@ body {
   top: 0px;
   z-index: 500; }
 
-#footer-main {
-  background: #222;
-  color: brown;
-  font-size: 0.8rem;
-  padding: 2.5rem 0; }
+.imgCls {
+  width: 90%;
+  height: 100%; }
+
+form {
+  width: 80%; }
 
 #footer-main {
   width: 100%;
-  margin-left: 0.1rem;
-  margin-right: 0.1rem;
+  margin-left: 1%;
   background-color: whitesmoke; }
+
+.row {
+  width: 99%; }
+
+.navbar, #carousel, .card-deck, .card, .myBadge, .feedbackForm, .text-lg-center {
+  margin-bottom: 2%; }
+
+#navbarSupportedContent .form-inline .btn-outline-success:hover {
+  background-color: tomato; }
+
+ul li a {
+  color: black; }
+
+.col-sm-3 p a {
+  color: black; }
 
 #carousel {
   width: 100%;
@@ -38,35 +54,19 @@ body {
 .feedbackForm, .myBadge {
   margin-left: 2%; }
 
-form {
-  width: 80%; }
-
-.imgCls {
-  width: 90%;
-  height: 100%; }
-
-.text-lg-center {
-  width: 100%;
-  align-self: auto; }
-
-.text-lg-center .pagination .page-item a {
-  width: 100%;
-  color: green;
-  align-items: center; }
-
 .feedbackSection {
   background-color: grey;
   border: 1px solid black; }
 
-.card-group .card {
+.card-deck .card {
   margin-bottom: 0.1px; }
 
-.card-group .card .card-img {
+.card-deck .card .card-img {
   height: 28rem;
   height: 100%; }
 
-.card .card-img .card-img-overlay .card-title, .card-title {
-  color: black; }
+.card .card-img .card-img-overlay .card-title {
+  color: blue; }
 
 .card .card-img .card-img-overlay .card-title .card-text {
   color: darkblue;
@@ -78,11 +78,42 @@ form {
 
 .myBadge {
   background-color: whitesmoke;
-  font-family: Tangerine;
   color: blue; }
+  .myBadge span {
+    color: black;
+    font-style: italic; }
   .myBadge .badge-secondary:hover {
     text-decoration: underline;
     cursor: pointer; }
 
+.text-lg-center {
+  width: 100%;
+  align-self: auto; }
+
+.text-lg-center .pagination .page-item a {
+  width: 100%;
+  color: green;
+  align-items: center; }
+
 .pagination {
   margin-left: 30%; }
+
+@media (max-width: 325px) {
+  .pagination {
+    margin-left: 25%; }
+  #carousel {
+    margin-top: 35%; } }
+
+@media (max-width: 770px) {
+  .navbar-toggler {
+    margin-right: 3%; } }
+
+.form-group .col-sm-10 .btn-primary {
+  background-color: orange;
+  color: black;
+  font-style: oblique; }
+
+.card-deck .card .btn-primary {
+  background-color: orange;
+  color: black;
+  font-style: oblique; }
