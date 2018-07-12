@@ -1,8 +1,16 @@
 $success:blue;
 $text-muted: green;
+$card-spacer-y: 0.8rem;
+
+
+
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'layout';
 @import 'carousel';
+
+.card-title {    //overriding  card-title class
+    margin-bottom: 1.75rem;
+  }
 
 $green-color:green;
 %leftMargin {
@@ -25,9 +33,9 @@ $green-color:green;
   height: 100%;
   }
 
-// .card-deck{
-//     margin-top:2%;
-// }
+.card-deck .card .card-img-top{       //setting height of images
+    height: 50%;
+}
 
   .card .card-img .card-img-overlay .card-title{
     color: blue;
