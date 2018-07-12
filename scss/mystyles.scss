@@ -25,7 +25,9 @@ $green-color:green;
   height: 100%;
   }
 
-
+// .card-deck{
+//     margin-top:2%;
+// }
 
   .card .card-img .card-img-overlay .card-title{
     color: blue;
@@ -69,9 +71,6 @@ $green-color:green;
      }}}}
 
        @media (max-width: 325px) {
-        // .pagination {
-        // margin-left: 25%;
-        // }
         .imgCls{
             width :40%;
             height: 40%;
@@ -93,6 +92,18 @@ $green-color:green;
             }
     }
 
+
+
+    @media (max-width: 550px) {
+        .navbar{
+            margin-bottom: 1%;
+        }
+        #carousel{
+            margin-top: 25%;
+        }
+
+    //margin-top: 70%;
+    }
     @media (max-width: 770px) {
        .navbar-toggler{
         margin-right: 20%;
@@ -112,7 +123,6 @@ $green-color:green;
     }
 
     .card-deck .card .card-body{
-
              h5{ color: blue;}
              .card-text{
                  color: brown;

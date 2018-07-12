@@ -6388,6 +6388,12 @@ ul li a {
   .myBadge h3 {
     font-size: 12px; } }
 
+@media (max-width: 550px) {
+  .navbar {
+    margin-bottom: 1%; }
+  #carousel {
+    margin-top: 25%; } }
+
 @media (max-width: 770px) {
   .navbar-toggler {
     margin-right: 20%; } }
